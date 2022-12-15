@@ -45,7 +45,7 @@ services:
        image: dpage/pgadmin4:latest
        environment:
          PGADMIN_DEFAULT_EMAIL: marraz85@gmail.com
-         PGADMIN_DEFAULT_PASSWORD: admin
+         PGADMIN_DEFAULT_PASSWORD: zabbix
        ports:
          - 8082:80
 volumes:
